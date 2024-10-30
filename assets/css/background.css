@@ -1,0 +1,33 @@
+body{
+    background-image: url('../img/clouds.png');
+    background-repeat: repeat-x;
+    background-color: #F4F4F4;
+    background-position: center 80px;
+}
+
+#wpwrap,
+#wpcontent,
+#wpbody,
+#wpbody-content,
+#chat_integration,
+#mdl_loader,
+#chat_integration #mdl_loader .showbox{
+    height: 100%;
+    min-height: 100%;
+}
+
+#wpbody-content {
+    padding-bottom: 0px;
+}
+
+#chat_integration #mdl_loader .showbox{
+    position: static !important;
+}
+
+#wpcontent{
+    padding-left: 0;
+}
+
+#wpfooter{
+    display: none;
+}

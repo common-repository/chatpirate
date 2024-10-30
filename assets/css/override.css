@@ -1,0 +1,13 @@
+#chat_integration .mdl-textfield__input{
+    border: none !important;
+    border-bottom: 1px solid rgba(0,0,0,.12) !important;
+    box-shadow: none;
+}
+
+#chat_integration .view.error{
+    border-left: none;
+}
+
+#chat_integration .view.error ul{
+    list-style: disc;
+}

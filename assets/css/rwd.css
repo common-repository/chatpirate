@@ -1,0 +1,26 @@
+@media (max-width: 450px){
+    #chat_integration .wrapper.wrapper-small{
+        width: 300px;
+    }
+
+    #chat_integration,
+    #chat_integration p {
+        font-size: 15px;
+    }
+}
+
+@media (max-height: 650px){
+    #chat_integration .wrapper{
+        position: static;
+        transform: none;
+        margin: 0 auto;
+    }
+
+    #chat_integration .view{
+        height: auto;
+    }
+
+    #chat_integration .chat_footer{
+        display: none;
+    }
+}
